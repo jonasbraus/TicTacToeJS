@@ -1,0 +1,46 @@
+body
+{
+    background-image: linear-gradient(to right, #ffcdb2, #e5989b);
+}
+
+div
+{
+    display: flex;
+    justify-content: center;
+}
+
+div div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+h1
+{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+canvas
+{
+    border: 2px solid;
+}
+
+.winText
+{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+button
+{
+    max-height: 50px;
+    margin-top: 20px;
+    background-color: inherit;
+}
+
+button img
+{
+    max-height: 45px;
+}
